@@ -1,0 +1,78 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario input{
+    margin: 20px;
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.formulario textarea{
+    margin: 5px;
+}
+
+.contactar{
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+    background-color: rgb(50, 50, 53);
+    color: azure;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactar h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+
+.submit{
+    padding: 10px 20px;
+    background-color: rgb(165, 165, 165);
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    box-shadow: 1px 3px 11px -5px rgb(30, 76, 90);
+}
+
+.submit:hover {
+    background-color: white;
+    box-shadow: none;
+}
+
+.formulario textarea{
+    height: 150px;
+    background: none;
+    color: white;
+    padding: 1.5em;
+    border-bottom: 1px solid white;
+}
+
+.contactar_cabecera{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+@media (max-width:320px) {
+
+        .contactar{
+            width: 100vw;
+        }
+
+        .contactar_cabecera{
+            margin-left: 35px;
+        }
+
+}
+

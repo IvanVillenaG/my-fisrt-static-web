@@ -1,0 +1,15 @@
+
+@import "./core/sections/reset";
+@import "./core/sections/var";
+@import "./core/sections/container";
+@import "./core/sections/header";
+@import "./core/sections/nav";
+@import "./core/sections/footer";
+@import "./core/sections/info";
+@import "./core/sections/sobremi";
+@import "./core/sections/portfolio";
+@import "./core/contactar";
+
+body {
+    overflow-x: hidden;
+}

@@ -1,0 +1,65 @@
+.footer{
+    display: flex;
+    width: 100vw;
+    height: 40vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.instagram_icon{
+    width: 40px;
+}
+
+.linkedin_icon {
+    width: 40px;
+}
+
+.twitter_icon {
+    width: 40px;
+}
+
+.footer_content h2{
+    font-size: 50px;
+    margin-bottom: 15px;
+    color: $background-color;
+}
+
+.footer_content h5{
+    font-size: 25px;
+    color: $background-color;
+}
+
+.redes_sociales{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.footer_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+@media (max-width:320px) {
+
+    .footer{
+        margin-left: 15px;
+    }
+
+    .footer_content h2{
+        font-size: 25px;
+    }
+
+}
+
+@media (max-width:600px) and (min-width:320px){
+    .footer_content h2 {
+            font-size: 30px;
+        }
+}
+

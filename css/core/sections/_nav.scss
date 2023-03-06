@@ -1,0 +1,45 @@
+
+.marca span{
+    color: $color-list;
+}
+
+.menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    &_list{
+        color: $color-list;
+        padding: 10px;
+        font-size: 20px;
+    }
+}
+
+.menu_list:hover{
+    background-color: $color-list;
+    color: $background-color;
+    transition: ease 0.5s;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.marca{
+    font-size: 45px;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+ @media (max-width:1280px) and (min-width:800px) {
+     .navbar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+     }
+ }

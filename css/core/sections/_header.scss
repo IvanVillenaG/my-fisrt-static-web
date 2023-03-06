@@ -1,0 +1,24 @@
+header{
+    background-color: $background-color;
+}
+
+header h2{
+    color: white;
+}
+ header span{
+    color: rgb(54, 183, 223);
+ }
+
+ @media (max-width:320px) {
+    header{
+    display: none;
+    height: 0;
+    }
+ }
+
+ @media (max-width:800px) and (min-width:320px) {
+     header {
+         display: none;
+         height: 0;
+     }
+ }
