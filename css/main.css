@@ -167,8 +167,10 @@ header span {
 .navbar {
   width: 100%;
   display: flex;
-  justify-content: space-between;
-  margin-left: 30px;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  background-color: rgb(50, 50, 53);
 }
 
 .marca {
@@ -196,14 +198,17 @@ header span {
 
 .instagram_icon {
   width: 40px;
+  color: rgb(50, 50, 53);
 }
 
 .linkedin_icon {
   width: 40px;
+  color: rgb(50, 50, 53);
 }
 
 .twitter_icon {
   width: 40px;
+  color: rgb(50, 50, 53);
 }
 
 .footer_content h2 {
@@ -248,7 +253,7 @@ header span {
 .main {
   margin: 0;
   width: 100vw;
-  height: 80vh;
+  height: 100vh;
   display: flex;
   grid-template-columns: 2fr 1fr;
   align-items: center;

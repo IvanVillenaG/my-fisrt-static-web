@@ -25,8 +25,10 @@
 .navbar{
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    margin-left: 30px;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    background-color: $background-color;
 }
 
 .marca{
